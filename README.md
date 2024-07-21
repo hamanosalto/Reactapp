@@ -58,17 +58,29 @@ EXPOSE 3000
 
 my-react-appディレクトリにdocker-compose.ymlを作成します。
 
-version: '3'
-services:
-  web:
-    build: .
-    ports:
-      - "3000:3000"
-    volumes:
-      - .:/usr/src/app
-      - /usr/src/app/node_modules
-    stdin_open: true
-    tty: true
+   version: '3'
+   
+   
+   services:
+   
+     web:
+     
+       build: .
+       
+       ports:
+       
+         - "3000:3000"
+       
+       volumes:
+       
+         - .:/usr/src/app
+         
+         - /usr/src/app/node_modules
+       
+       stdin_open: true
+       
+       tty: true
+       
 # package.json の作成
 
 my-react-appディレクトリにpackage.jsonを作成します。Reactプロジェクトを生成するには、以下のコマンドを使用します。
