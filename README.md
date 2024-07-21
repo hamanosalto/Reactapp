@@ -21,8 +21,6 @@ DockerでReactの環境を構築する手順をGitHubのREADMEに記載するた
 3. Dockerfile の作成
 my-react-appディレクトリにDockerfileを作成します。
 
-Dockerfile
-コードをコピーする
 # ベースイメージとしてnodeを使用
 FROM node:14
 
@@ -49,8 +47,6 @@ EXPOSE 3000
 3. docker-compose.yml の作成
 my-react-appディレクトリにdocker-compose.ymlを作成します。
 
-yaml
-コードをコピーする
 version: '3'
 services:
   web:
@@ -78,11 +74,6 @@ bash
 docker-compose up
 このコマンドを実行すると、DockerがReactアプリケーションをビルドし、http://localhost:3000 でアクセスできるようになります。
 
-6. GitHub README に記載する内容
-README.mdに以下の内容を追加します。
-
-markdown
-コードをコピーする
 # My React App
 
 このリポジトリは、Dockerを使用してReactアプリケーションの開発環境を構築する手順を示しています。
@@ -111,16 +102,19 @@ markdown
 
 ## ディレクトリ構成
 
-my-react-app/
-├── Dockerfile
-├── docker-compose.yml
-└── src/
-└── index.js
-└── App.js
-└── ...
-
-shell
-コードをコピーする
+    my-react-app/
+    
+    ├── Dockerfile
+    
+    ├── docker-compose.yml
+    
+    └── src/
+    
+    └── index.js
+    
+    └── App.js
+    
+    └── ...
 
 ## 使用方法
 
@@ -133,8 +127,7 @@ shell
 ```bash
 docker-compose up --build
 停止
+
 アプリケーションを停止するには、以下のコマンドを使用します。
 
-bash
-コードをコピーする
 docker-compose down
