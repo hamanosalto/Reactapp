@@ -2,6 +2,41 @@
 DockerでReactの環境を構築する手順を以下に示します。この例では、Dockerを使用してReactアプリケーションをセットアップし、
 開発環境を整え簡単なTodoアプリケーションの作成をしていきます。
 
+## 必要なソフトウェア
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+## セットアップ手順
+
+1. リポジトリをクローンします。
+
+    ```bash
+    git clone https://github.com/your-username/my-react-app.git
+    cd my-react-app
+    ```
+
+2. Docker Composeを使用して、環境を立ち上げます。
+
+    ```bash
+    docker-compose up
+    ```
+
+3. ブラウザで [http://localhost:3000](http://localhost:3000) にアクセスして、Reactアプリケーションを確認します。
+
+## 使用方法
+
+アプリケーションのコードを編集すると、変更は自動的に反映されます。コンテナはホットリロードをサポートしています。
+
+## ビルドと実行
+
+アプリケーションをビルドして実行するには、以下のコマンドを使用します。
+
+```bash
+docker-compose up --build
+
+
+
 # プロジェクトのディレクトリ構成
 まず、プロジェクトのディレクトリを以下のように構成します。
 
