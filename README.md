@@ -11,7 +11,6 @@ DockerでReactの環境を構築する手順を以下に示します。この例
     　├── docker-compose.yml
 
     　└── src/
-
         └── index.js
 
        　　└── App.js
