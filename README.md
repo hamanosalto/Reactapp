@@ -6,7 +6,6 @@ DockerでReactの環境を構築する手順を以下に示します。この例
 
 my-react-app/
 
-
 ├── Dockerfile
 
 ├── docker-compose.yml
@@ -59,10 +58,9 @@ EXPOSE 3000
 my-react-appディレクトリにdocker-compose.ymlを作成します。
 
 
-
-   version: '3'
+      version: '3'
    
-   services:
+      services:
    
      web:
      
