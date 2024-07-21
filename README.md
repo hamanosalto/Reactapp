@@ -6,6 +6,8 @@ DockerでReactの環境を構築する手順を以下に示します。この例
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
+- [React(Windowsの方)]([https://www.docker.com/](https://qiita.com/techpit-jp/items/984b80a795b7a6f6dd60))
+- [React(Macの方)]([https://docs.docker.com/compose/](https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09))
 
 # プロジェクトのディレクトリ構成
 まず、プロジェクトのディレクトリを以下のように構成します。
