@@ -83,7 +83,9 @@ my-react-appディレクトリにdocker-compose.ymlを作成します。
 # package.json の作成
 
 my-react-appディレクトリにpackage.jsonを作成します。Reactプロジェクトを生成するには、以下のコマンドを使用します。
-npx create-react-app my-react-app
+
+            npx create-react-app my-react-app
+
 このコマンドを実行すると、my-react-appディレクトリに必要なファイルが生成されます。既にcreate-react-appを実行している場合は、package.jsonの内容を確認して、そのまま利用できます。
 
 # React アプリケーションの実行
