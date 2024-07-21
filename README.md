@@ -123,7 +123,6 @@ my-react-appディレクトリにpackage.jsonを作成します。Reactプロジ
 
 アプリケーションをビルドして実行するには、以下のコマンドを使用します。
 
-```bash
 docker-compose up --build
 
 # 停止
