@@ -37,10 +37,6 @@ COPY package*.json ./
 
 RUN npm install
 
-・アプリケーションのソースコードをコピー
-
-COPY . .
-
 ・アプリケーションをビルド
 
 RUN npm run build
