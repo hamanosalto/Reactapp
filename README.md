@@ -1,10 +1,8 @@
-#　DockerでReactの環境を構築する手順をGitHubのREADMEに記載するための例を以下に示します。この例では、Dockerを使用してReactアプリケーションをセットアップし、開発環境を整える方法を説明します。
+DockerでReactの環境を構築する手順をGitHubのREADMEに記載するための例を以下に示します。この例では、Dockerを使用してReactアプリケーションをセットアップし、開発環境を整える方法を説明します。
 
 1. プロジェクトのディレクトリ構成
 まず、プロジェクトのディレクトリを以下のように構成します。
 
-css
-コードをコピーする
 my-react-app/
 ├── Dockerfile
 ├── docker-compose.yml
@@ -12,6 +10,7 @@ my-react-app/
     └── index.js
     └── App.js
     └── ...
+    
 2. Dockerfile の作成
 my-react-appディレクトリにDockerfileを作成します。
 
