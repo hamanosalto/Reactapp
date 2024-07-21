@@ -13,11 +13,10 @@ DockerでReactの環境を構築する手順を以下に示します。この例
 
     └── src/
 
-     └── index.js
+        └── index.js
 
-        └── App.js
+       　　└── App.js
 
-   　　　　　　　　　　└── ...
     
 3. Dockerfile の作成
 my-react-appディレクトリにDockerfileを作成します。
