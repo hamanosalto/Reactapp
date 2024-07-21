@@ -62,23 +62,23 @@ my-react-appディレクトリにdocker-compose.ymlを作成します。
    
       services:
    
-     web:
+           web:
      
-       build: .
+             build: .
        
-       ports:
+             ports:
        
-         - "3000:3000"
+               - "3000:3000"
        
-       volumes:
+             volumes:
        
-         - .:/usr/src/app
+               - .:/usr/src/app
          
-         - /usr/src/app/node_modules
+               - /usr/src/app/node_modules
        
-       stdin_open: true
+             stdin_open: true
        
-       tty: true
+             tty: true
        
 # package.json の作成
 
