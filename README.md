@@ -22,28 +22,36 @@ my-react-app/
 
 my-react-appディレクトリにDockerfileを作成します。
 
-ベースイメージとしてnodeを使用
+・ベースイメージとしてnodeを使用
+
 FROM node:14
 
-作業ディレクトリを設定
+・作業ディレクトリを設定
+
 WORKDIR /usr/src/app
 
-package.jsonとpackage-lock.jsonをコピー
+・package.jsonとpackage-lock.jsonをコピー
+
 COPY package*.json ./
 
-依存関係をインストール
+・依存関係をインストール
+
 RUN npm install
 
-アプリケーションのソースコードをコピー
+・アプリケーションのソースコードをコピー
+
 COPY . .
 
-アプリケーションをビルド
+・アプリケーションをビルド
+
 RUN npm run build
 
-アプリケーションを起動
+・アプリケーションを起動
+
 CMD ["npm", "start"]
 
-ホストとコンテナ間でマウントするポートを指定
+・ホストとコンテナ間でマウントするポートを指定
+
 EXPOSE 3000
 
 # docker-compose.yml の作成
