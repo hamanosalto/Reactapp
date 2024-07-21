@@ -10,11 +10,11 @@ my-react-app/
 
 ├── docker-compose.yml
 
-└── src/
+   └── src/
 
-   └── index.js
+      └── index.js
 
-   └── App.js
+      └── App.js
 
     
 3. Dockerfile の作成
