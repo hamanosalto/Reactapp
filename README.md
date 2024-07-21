@@ -58,8 +58,9 @@ EXPOSE 3000
 
 my-react-appディレクトリにdocker-compose.ymlを作成します。
 
+
+
    version: '3'
-   
    
    services:
    
